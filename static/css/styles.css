@@ -134,8 +134,12 @@
     transform: translateX(0);
 }
 
-.card .card-timeselector .price-toggle {
+.card .card-timeselector .checkbox:checked~.price-toggle {
     background: var(--LightGrayishBlue);
+}
+
+.card .card-timeselector .price-toggle {
+    background: var(--StrongCyan);
     display: block;
     cursor: pointer;
     height: 20px;
