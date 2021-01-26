@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="header">
+            <h2 class="u-h2">
+                Simple, traffic-based pricing</h2>
+            <p class="u-p">Sign-up for our 30-day trial.<br> No credit card required. </p>
+        </header>
+
+        <div class="card">
+            <p class="card-p">100K Pageviews </p>
+            <div class="card-selector"><input type="range" name="" id=""></div>
+            <p class="card-price"><span class="card-value" id="card-value">$16.00</span><span class="card-time" id="card-time">/month</span></p>
+            <div class="card-timeselector">
+                <input type="checkbox" name="price-toggle" id="price-toogle" class="checkbox" checked>
+                <p>Monthly Billing</p>
+                <label for="price-toogle" class="price-toggle"></label>
+                <p>Yearly Billing <span class="percentage">25%</span><span class="discount">discount</span></p>
+            </div>
+            <hr class="card-line">
+            <div class="card-characteristics">
+                <ul>
+                    <li><i class="check"><img src="./static/images/icon-check.svg" alt=""></i>Unlimited websites</li>
+                    <li><i class="check"><img src="./static/images/icon-check.svg" alt=""></i>100% data ownership</li>
+                    <li><i class="check"><img src="./static/images/icon-check.svg" alt=""></i>Email reports</li>
+                </ul>
+            </div>
+            <button class="card-button">Start my trial</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/Takata21">MTakata21</a>.
+        </div>
+    </footer>
+</body>
+
+</html>
